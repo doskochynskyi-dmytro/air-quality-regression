@@ -13,12 +13,8 @@ device = torch.device("cpu")
 
 # 1. Get the absolute path to the directory containing app.py
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-weight_path = os.path.join(APP_DIR, "assets", "weights")
 
-# 2. Go up one level to the project root, then into assets/weights
-weight_path = os.path.abspath(
-    os.path.join(APP_DIR, "..", "assets", "weights")
-)
+weight_path = os.path.join(APP_DIR, "assets", "weights")
 
 print(f"Loading weights from: {weight_path}")
 
