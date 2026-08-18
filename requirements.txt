@@ -1,6 +1,7 @@
 numpy
 pandas
 torch
+streamlit
 optuna
 Pillow
 matplotlib
